@@ -1,0 +1,8 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+# parts:
+#   - caption: 講義の教材
+#   - caption: 補足情報
