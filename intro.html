@@ -52,6 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="第1回：イントロダクションとGoogle Colaboratoryの導入" href="docs/01/introduction_and_setup.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -111,7 +112,89 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  講義の教材
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/01/introduction_and_setup.html">
+   第1回：イントロダクションとGoogle Colaboratoryの導入
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/02/variables_and_data_types.html">
+   第2回：変数とデータ型（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/03/exercise_variables_and_data_types.html">
+   第3回：変数とデータ型（演習）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/04/conditional_branch.html">
+   第4回：条件分岐（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/05/exercise_conditional_branch.html">
+   第5回：条件分岐（演習）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/06/loops.html">
+   第6回：繰り返し処理（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/07/exercise_loops.html">
+   第7回：繰り返し処理（演習）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/08/functions_and_scope.html">
+   第8回：関数とスコープ（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/09/exercise_functions_and_scope.html">
+   第9回：関数とスコープ（演習）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/10/application.html">
+   第10回：アプリケーションの作成（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/11/exercise_application.html">
+   第11回：アプリケーションの作成（演習）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/12/introduction_to_data_analysis.html">
+   第12回：データ分析入門（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/13/exercise_introduction_to_data_analysis.html">
+   第13回：データ分析入門（演習）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/14/introduction_to_machine_learning.html">
+   第14回：機械学習入門（講義）
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="docs/15/exercise_introduction_to_machine_learning.html">
+   第15回：機械学習入門（演習）
+  </a>
+ </li>
+</ul>
+
     </div>
 </nav></div>
         <div class="bd-sidebar__bottom">
@@ -299,7 +382,17 @@ title="Print to PDF"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   課題提出
+   講義の取り組み方
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   入学前課題の内容
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
+   課題の提出方法
   </a>
  </li>
 </ul>
@@ -333,7 +426,17 @@ title="Print to PDF"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   課題提出
+   講義の取り組み方
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   入学前課題の内容
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
+   課題の提出方法
   </a>
  </li>
 </ul>
@@ -348,21 +451,171 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1>ゼロから始めるプログラミング<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
-<p><strong>広島大学 情報科学部 2022年度</strong><br>
+<p><strong>広島大学 情報科学部 2023年度</strong><br>
 <strong>学校推薦型選抜合格者向け 入学前課題</strong></p>
 <p>担当教員：相澤宏旭，古居彬</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+お知らせ</div>
+<ul class="simple">
+<li><p class="sd-card-text">本ページを正式公開しました（2022/12/23）</p></li>
+</ul>
+</div>
+</div>
 <section id="id2">
 <h2>本講義について<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
-<p>準備中</p>
+<p>広島大学 情報科学部 学校推薦型選抜合格者向けの講義と入学前課題の説明となります．
+本講義はオンデマンドで実施されます．資料と動画を参照し，自習形式で取り組んでください．
+本講義のアナウンスは基本的にこのページで行います．こまめにチェックするようにしてください．</p>
+<p><strong>2023年2月28日（火）まで</strong>に課題を提出してもらう必要があります．
+課題の内容と提出方法は本ページ下部に記載してあるので，忘れずに確認しておいてください．</p>
+<p><strong>質問対応</strong></p>
+<p>本講義の技術的な質問は Slack というツールを使って対応します．質問だけでなくアナウンス等も併せて行うので以下のURLから Slack に参加してください．</p>
+<p>Slack参加URL：<a class="reference external" href="https://join.slack.com/t/zero-pro2022-task/shared_invite/zt-1m07u66th-1hTKH3O405qDcnkaq0lO0g">https://join.slack.com/t/zero-pro2022-task/shared_invite/zt-1m07u66th-1hTKH3O405qDcnkaq0lO0g</a></p>
+<p><strong>連絡先</strong></p>
+<p>その他質問がある場合は，以下の連絡先にご連絡ください．</p>
+<p>zeropro.hu{at}gmail.com</p>
+<p>※ {at} を &#64; に変えて連絡してください．</p>
 </section>
 <section id="id3">
 <h2>講義資料<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h2>
-<p>準備中</p>
+<ul class="simple">
+<li><p>教材中の <code class="docutils literal notranslate"><span class="pre">【発展】</span> </code>で始まる項目は必修ではありません． 各自の興味に応じて学習してください．</p></li>
+<li><p>各ビデオは2022年度に大学生向け講義用に作成したものです．講義運営や試験に関する話も出てきますが，本入学課題とは関係ないので無視してもらって大丈夫です．</p></li>
+</ul>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>教材</p></th>
+<th class="text-align:center head"><p>ビデオ</p></th>
+<th class="text-align:center head"><p>課題の解答</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/01/introduction_and_setup.html"><span class="doc std std-doc">第1回：イントロダクションと<br>Google Colaboratoryの導入</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/W1o96UDOYlo">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/02/variables_and_data_types.html"><span class="doc std std-doc">第2回：変数とデータ型（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/ZukKRAw6RKU">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/03/exercise_variables_and_data_types.html"><span class="doc std std-doc">第3回：変数とデータ型（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/03_ans/answer_variables_and_data_types.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/04/conditional_branch.html"><span class="doc std std-doc">第4回：条件分岐（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/aD1yp9Iskpc">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/05/exercise_conditional_branch.html"><span class="doc std std-doc">第5回：条件分岐（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/05_ans/answer_conditional_branch.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/06/loops.html"><span class="doc std std-doc">第6回：繰り返し処理（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/LTL8kOAcHA0">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/07/exercise_loops.html"><span class="doc std std-doc">第7回：繰り返し処理（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/07_ans/answer_loops.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/08/functions_and_scope.html"><span class="doc std std-doc">第8回：関数とスコープ（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/n3Hb8-UYeCk">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/09/exercise_functions_and_scope.html"><span class="doc std std-doc">第9回：関数とスコープ（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/09_ans/answer_functions_and_scope.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/10/application.html"><span class="doc std std-doc">第10回：アプリケーションの作成（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/g3pk3JMZSC8">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/11/exercise_application.html"><span class="doc std std-doc">第11回：アプリケーションの作成（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/11_ans/answer_application.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/12/introduction_to_data_analysis.html"><span class="doc std std-doc">第12回：データ分析入門（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/b1-KNv6uHoc">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/13/exercise_introduction_to_data_analysis.html"><span class="doc std std-doc">第13回：データ分析入門（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/13_ans/answer_introduction_to_data_analysis.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="docs/14/introduction_to_machine_learning.html"><span class="doc std std-doc">第14回：機械学習入門（講義）</span></a></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://youtu.be/vDJWlDOL4ps">Play</a></p></td>
+<td class="text-align:center"><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="docs/15/exercise_introduction_to_machine_learning.html"><span class="doc std std-doc">第15回：機械学習入門（演習）</span></a></p></td>
+<td class="text-align:center"><p>-</p></td>
+<td class="text-align:center"><p><a class="reference internal" href="docs/15_ans/answer_introduction_to_machine_learning.html"><span class="doc std std-doc">Open</span></a></p></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="id4">
-<h2>課題提出<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h2>
-<p>準備中</p>
+<h2>講義の取り組み方<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h2>
+<p>以下は一例です．</p>
+<ol class="simple">
+<li><p>講義の導入から機械学習入門までの資料を読んで，コードを実行してみましょう．</p>
+<ul class="simple">
+<li><p>最初は【発展】以外の基礎項目に取り組みましょう．余裕があれば発展内容に取り組んでください．</p></li>
+<li><p>Google Colabで実行するだけでなく，コードを変更してみたりすると理解が深まると思います．</p></li>
+<li><p>ビデオでは発展以外の基礎内容の簡単な解説を提供しています．視聴は必須ではありません．補助資料としてご利用ください．</p></li>
+</ul>
+</li>
+<li><p>各トピックの演習問題に取り組んでみましょう．</p>
+<ul class="simple">
+<li><p>演習問題の実施は必須ではありません．自身の理解度を知るためにも取り組んでみることをおすすめします．どうしてもわからない場合は，インターネットで利用方法を調べてみたり，事前に公開している解答を写径しても良いので自身の手で実行してみてください.</p></li>
+</ul>
+</li>
+<li><p>入学前課題に取り組み，締め切りまでに提出しましょう．</p></li>
+</ol>
 </section>
+<section id="id5">
+<h2>入学前課題の内容<a class="headerlink" href="#id5" title="Permalink to this headline">#</a></h2>
+<p>資料を読み，Pythonの基礎文法を身につけた上で，以下の課題に取り組んでください．</p>
+<p><strong>課題内容</strong></p>
+<ul class="simple">
+<li><p>Pythonを使ってアプリケーションを作成してください．</p></li>
+<li><p>作成したアプリケーションの概要（最低1ページ）をPDFにまとめて提出してください．</p></li>
+</ul>
+<p>作成するアプリケーションは <strong>任意</strong> です．あなたが今作りたいものをPythonで実現してください．Pythonを利用していれば，どのようなライブラリやパッケージを利用しても良いです．</p>
+<p><strong>アプリケーションの例</strong>：</p>
+<ul class="simple">
+<li><p>ユーザーから入力された数値同士の演算を計算する電卓アプリ</p></li>
+<li><p>ユーザーから入力された文字列からテキスト検索するアプリ</p></li>
+<li><p>フォルダ内のファイルの名前を自動で修正するアプリ</p></li>
+<li><p>スケジュールや時間割を管理するアプリ</p></li>
+<li><p>与えられた関数の微分を計算する微積分アプリ</p></li>
+<li><p>Youtubeから動画をダウンロードするアプリ</p></li>
+<li><p>与えられたキーワードに従ってGoogleの画像検索から画像をダウンロードするアプリ</p></li>
+<li><p>画像分類を行うAIモデルの作成</p></li>
+</ul>
+<p>以上，アプリケーション例です．一部，本講義範囲外の内容を含んでいますが，Pythonを駆使して，自身で調べて，試行錯誤した経験が本事前学習課題から学べることを皆さんに期待しています．</p>
+<p><strong>概要の例</strong></p>
+<ul class="simple">
+<li><p>アプリケーションの実行に必要なライブラリと実行方法</p></li>
+<li><p>アプリケーションの機能説明（図やイラストを使ってもOKです）</p></li>
+<li><p>アプリケーションの利用場面</p></li>
+<li><p>アプリケーション作成で工夫したところ・苦戦したところ</p></li>
+</ul>
+<p>なお，概要の作成ツールは指定しません．Word，PowerPoint，Keynote，Markdownなど使いやすいツールを利用して作成してください．概要はPDFファイルで提出してください．</p>
+</section>
+<section id="id6">
+<h2>課題の提出方法<a class="headerlink" href="#id6" title="Permalink to this headline">#</a></h2>
+<p>提出してもらうファイルは以下の2点です．</p>
+<ul class="simple">
+<li><p>作成したPythonアプリケーションのコード（<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>ファイル または <code class="docutils literal notranslate"><span class="pre">.py</span></code>ファイル）</p></li>
+<li><p>作成したアプリケーションの概要（1ページ以上，PDFファイル）</p></li>
+</ul>
+<p>課題の提出期限は <strong>2023年2月28日（火）</strong> です．
+具体的な提出方法は近日中に追記します．</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -392,6 +645,13 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="docs/01/introduction_and_setup.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">第1回：イントロダクションとGoogle Colaboratoryの導入</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>
